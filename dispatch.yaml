@@ -1,0 +1,7 @@
+dispatch:
+  - url: "*/cdp/*"
+    service: cdp
+
+  - url: "*/*"
+    service: default
+
