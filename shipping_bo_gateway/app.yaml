@@ -1,0 +1,4 @@
+runtime: nodejs12
+service: shipping_bo_gateway
+env_variables:
+    PORT: 8080

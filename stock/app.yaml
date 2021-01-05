@@ -1,0 +1,4 @@
+runtime: nodejs12
+service: stock
+env_variables:
+    PORT: 8080
