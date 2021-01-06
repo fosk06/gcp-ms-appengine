@@ -15,20 +15,12 @@ dispatch:
   - url: "*/ps_gateway/*"
     service: ps_gateway
 
-  - url: "*/frship_ps_gateway/*"
-    service: frship_ps_gateway
 
   - url: "*/shipping_bo/*"
     service: shipping_bo
 
-  - url: "*/shipping_bo_gateway/*"
-    service: shipping_bo_gateway
-
   - url: "*/aftership/*"
     service: aftership
-
-  - url: "*/frship_aftership_gateway/*"
-    service: frship_aftership_gateway
 
   - url: "*/api/*"
     service: api
